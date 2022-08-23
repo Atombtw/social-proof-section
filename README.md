@@ -27,7 +27,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/Atombtw/social-proof-section](https://github.com/Atombtw/social-proof-section)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://darling-belekoy-d47362.netlify.app/](https://darling-belekoy-d47362.netlify.app/)
 
 ## My process
 
