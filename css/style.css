@@ -1,0 +1,267 @@
+:root {
+  --Dark-Grayish-Magenta: hsl(303, 10%, 53%);
+  --Light-Grayish-Magenta: hsl(300, 24%, 96%);
+  --White: hsl(0, 0%, 100%);
+  --Very-Dark-Magenta: hsl(300, 43%, 22%);
+  --Soft-Pink: hsl(333, 80%, 67%);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  font-family: "League Spartan", sans-serif;
+  background-repeat: no-repeat;
+  background-size: bottom;
+  position: relative;
+}
+
+.body-alti {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+}
+
+main {
+  margin-top: 100px;
+  margin-right: 100px;
+  margin-left: 150px;
+}
+
+.flex {
+  display: flex;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.p-0 {
+  padding: 0;
+}
+
+.yukarı-baslik {
+  display: flex;
+}
+
+.sol-baslik {
+  width: 50%;
+}
+
+.sol-baslik h1 {
+  font-size: 50px;
+  font-weight: 700;
+  color: var(--Very-Dark-Magenta);
+  margin-right: 180px;
+}
+
+.sol-baslik p {
+  color: var(--Dark-Grayish-Magenta);
+  line-height: 1.5;
+  padding-right: 220px;
+  font-weight: 500;
+}
+
+.sag-baslik {
+  width: 50%;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 50px;
+}
+
+ul li {
+  display: flex;
+  background-color: var(--Light-Grayish-Magenta);
+  text-align: center;
+  align-items: center;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 4px;
+}
+
+.ilk-yildiz {
+  padding-left: 35px;
+}
+
+ul li div img {
+  height: 15px;
+  width: 15px;
+  padding-right: 5px;
+}
+
+ul li div p {
+  padding-left: 35px;
+  color: var(--Very-Dark-Magenta);
+  font-weight: 700;
+}
+
+.iki-li {
+  margin-left: 35px;
+  margin-right: 130px;
+}
+
+.bir-li {
+  margin-right: 165px;
+}
+
+.uc-li {
+  margin-left: 75px;
+  margin-right: 90px;
+}
+
+.asagi-baslik {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-right: 50px;
+}
+
+.asagi-baslik img {
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+}
+
+.divler {
+  background-color: var(--Very-Dark-Magenta);
+  margin-right: 40px;
+  border-radius: 7px;
+}
+
+.title-title p {
+  margin: 0;
+  padding-left: 25px;
+  padding-bottom: 5px;
+  padding-top: 2px;
+}
+
+.isim {
+  font-weight: bold;
+  color: var(--White);
+}
+
+.aciklama {
+  color: var(--Light-Grayish-Magenta);
+  line-height: 1.5;
+}
+
+.ünvan {
+  color: var(--Soft-Pink);
+}
+
+.div-bir {
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-bottom: 50px;
+}
+
+.div-iki {
+  margin-top: 20px;
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-bottom: 25px;
+}
+
+.div-üc {
+  margin-top: 40px;
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+  main {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .body-alti {
+    display: none;
+  }
+
+  .yukarı-baslik {
+    display: block;
+  }
+
+  .sol-baslik {
+    width: 100%;
+  }
+
+  .sol-baslik h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--Very-Dark-Magenta);
+    align-items: center;
+    text-align: center;
+    margin-right: 35px;
+    margin-left: 35px;
+    margin-top: 95px;
+  }
+
+  .sol-baslik p {
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .sag-baslik {
+    margin-right: 0;
+    width: 100%;
+  }
+
+  .asagi-baslik {
+    grid-template-columns: 1fr;
+    margin: 0;
+    padding: 0;
+  }
+
+  .divler {
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-bottom: 15px;
+    margin-top: 0px;
+  }
+
+  .bir-li {
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+  }
+
+  .iki-li {
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+  }
+
+  .uc-li {
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+  }
+
+  ul li {
+    display: block;
+  }
+
+  .ilk-yildiz {
+    padding-right: 5px;
+    padding-left: 0;
+    padding-top: 10px;
+  }
+
+  ul li div p {
+    padding-left: 0;
+  }
+}
