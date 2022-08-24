@@ -41,5 +41,5 @@ Users should be able to:
 ## Author
 
 - Website - [https://atombtw.github.io/](https://atombtw.github.io/)
-- Frontend Mentor - [hhttps://www.frontendmentor.io/profile/Atombtw](hhttps://www.frontendmentor.io/profile/Atombtw)
+- Frontend Mentor - [@Atombtw](https://www.frontendmentor.io/profile/Atombtw)
 - Twitter - [@atomtr42](https://twitter.com/atomtr42)
